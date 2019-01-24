@@ -1,0 +1,108 @@
+@charset "UTF-8";
+
+html {
+    height: 100%;
+}
+
+body {
+    background-color: #f2f2f2;
+    font-style: normal;
+    font-size: 16px;
+}
+
+.container {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 0 3px 5px #404040;
+}
+
+/* Banners */
+.banner {
+    margin-top: 10px;
+    transition-duration: 1.5s;
+    height: 100%;
+    padding-top: 3%;
+    padding-bottom: 3%;
+    background: url(assets/banner.jpg) no-repeat;
+    background-size: cover;
+    text-align: center;
+    z-index: 100;
+    box-shadow: 0 3px 5px #404040;
+    position: relative;
+}
+
+.welcome {
+    font-family: "Comic Sans MS", cursive, sans-serif;
+    font-size: 300%;
+    font-weight: normal;
+    color: white;
+    text-align: center;
+    text-shadow: 0 0 10px black;
+    padding-top: 2.5%;
+    padding-bottom: 2.5%;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    display: block;
+    background-color: rgba(0, 0, 0, 0.2);
+    position: relative;
+    z-index: 200;
+}
+
+/* Hover effects */
+.banner:hover {
+    box-shadow: 0 6px 20px black;
+}
+
+.rect-button:hover, .line-edit:hover {
+    background-color: white;
+    text-shadow: none;
+    color: #606060;
+    box-shadow: 0 0 10px black;
+}
+
+.banner form input {
+    font-size: 18px;
+    height: 30px;
+    border: 0;
+    border-radius: 30px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.line-edit:hover {
+    width: 45%;
+}
+
+.line-edit {
+    width: 35%;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    transition-duration: 0.5s;
+}
+
+.rect-button {
+    border: 2px solid white;
+    border-radius: 7px;
+    color: white;
+    padding: 7px 10px 8px;
+    width: auto;
+    display: inline-block;
+    background-color: rgba(0, 0, 0, 0.5);
+    transition-duration: 0.5s;
+}
+
+.container form {
+    display: inline;
+}
+
+.page-turner {
+    margin-top: -55px;
+    z-index: 150;
+    position: relative;
+}
+
+.container img {
+    z-index: 50;
+    position: relative;
+}
